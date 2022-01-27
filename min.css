@@ -1,0 +1,258 @@
+
+  button{
+    /* margin-left: 40px;
+     */
+     float: right;
+    background: transparent;
+    border: none;
+    font-weight: 600;
+    color: White;
+}
+  .filter1 select{
+    background: transparent;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .content p i{
+    background: #067efd;
+    border-radius: 50px;
+    padding: 12px;
+    color: white;
+    font-size: 32px;
+    margin: 10px;
+
+  }
+  @media screen and (max-width: 1100px) {
+    
+    .sidebar{
+        display: none;
+    }
+  div.content {
+    padding: 8px;
+    
+        margin-left: 0px;
+    }
+  }
+
+  .btn2 {
+    background-color: #067efd;
+    border: 1px solid #93abe3;
+    color: white;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    display: block;
+    padding: 9px;
+    border-radius: 12px;
+  }
+  
+  
+  
+   .btn2:hover {
+    background-color: #4a3e8e;
+  }
+  .btn3:hover {
+    background-color: #0e70f0;
+    color: white;
+  }
+  
+
+  
+  .box1{
+      padding: 4px;
+      width:24vw;
+
+  }
+  .outer {
+    text-align:center;
+    overflow: hidden;
+    vertical-align: center;
+
+  }
+  .outer > * {
+    display:inline-block;
+    /* background-color:white; */
+  }
+  .one{
+    float:left;
+  }
+  .three{
+    float:right;
+  }
+  .w3-container {
+    /* border:1px solid black; */
+    border-radius: 5px;
+    box-shadow: 0px 6px 16px rgb(82, 138, 223);
+    
+        /* border: 1px solid; */
+    padding: 9px;
+margin: 33px;
+/* background-color: rgb(24, 206, 206); */
+
+  }
+  .filter
+  {
+    margin:5px;
+    
+  }
+  .filter1{
+    display: grid;
+    margin: 33px;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .filter select{
+    text-align: center;
+    padding: 3px;
+    /* font-weight: bold; */
+    margin: 3px;
+    background: transparent;
+    border-radius: 6px;
+  }
+  .filter p label{
+    
+    /* font-size: 24px;
+    font-weight: bold; */
+  
+  }
+  .filter1 p input{
+    /* padding:12px;
+    background-color: azure;
+    border-radius: 12px; */
+    padding: 4px;
+    background-color: azure;
+    border-radius: 12px;
+    width: 20vw;
+    margin: 2px;
+  }
+
+
+  body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 420px;
+    background-color: aliceblue;
+    position: absolute;
+    height: ;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  @media screen and (min-width: 1100px) {
+    
+        .content {
+        margin-left: 420px;
+        /* padding-left: 286px; */
+        /* padding: 1px 16px; */
+        padding: 26px;
+        height: 1000px;
+      }  
+  }
+/* Navbar */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*navbar*/
+.boxdetail{
+
+    width: 282px;
+    padding: 10px;
+    /* border: 5px solid #95a7db; */
+   box-shadow:  0px 6px 16px #95a7db;
+   text-align: center ;
+    margin: 60px;
+      margin-top: 20px;
+    margin-top: 42px;
+    border-radius: 20px;
+      
+}
+.filter1 select option{
+    background-color: aliceblue; 
+    text-align: center;
+    font-weight: bold;
+}
+.name input{
+    background: transparent;
+    padding: 16px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    /* float: right; */
+    width: 80%;
+}
+.modal input{
+    background: transparent;
+    padding: 12px;
+    border-radius: 12px;
+    font-weight: 600;
+
+    /* float: right; */
+    font-size: 14px;
+    width: 80%;
+    margin-top: 5px;
+}
+.bike121{
+    color: #172B4D;
+font-size: 16px;
+padding: 18px 16px 15px;
+font-weight: 500;
+position: relative;
+z-index: 0;
+transition: all 0.3s ease-in-out;
+}
+.checkbox{
+    margin: 0 10px 0 0;
+position: relative;
+top: 1px;
+}
+.logo{
+    text-align: center;
+    padding: 20px;
+}
+.btn3{
+    color: blue;
+padding: 18px;
+border: 2px solid blue;
+cursor: pointer;
+border-radius: 17px;
+}
+input.larger{
+    width: 40px;
+    height: 20px;
+}
+.btn4{
+    background: #067efd;
+padding: 12px;
+cursor: pointer;
+border-radius: 30px;
+}
+.btn4:hover{
+    background-color: rgb(34, 34, 211);
+}
